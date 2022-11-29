@@ -16,7 +16,9 @@ export default function Card(props) {
           {" "}
           <img src="../images/star.png" className="card--star" alt="star" />
         </span>
-        <span className="card--rating">{props.card.stats.rating}</span>
+        <span className="card--rating">
+          {props.card.stats.rating.toFixed(1)}
+        </span>
         <span className="card--reviewcount">
           ({props.card.stats.reviewCount}) •{" "}
         </span>
