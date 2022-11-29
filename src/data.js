@@ -1,4 +1,4 @@
-const Data = [
+const data = [
   {
     id: 1,
     title: "Life Lessons with Katie Zaferes",
@@ -57,4 +57,4 @@ const Data = [
   },
 ];
 
-export default Data;
+export default data;
