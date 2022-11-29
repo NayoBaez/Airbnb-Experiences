@@ -41,4 +41,18 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "The Cheesecake Bakery",
+    description:
+      "If you've dreamt of visiting San Sebastian, or you've been here before, you've probably heard of its cheesecake. La Viña's cheesecake, and this, is the ultimate cheesecake experience! Learn how to make this world famous dessert.",
+    price: 35,
+    coverImg: "bake-cake.jpg",
+    stats: {
+      rating: 5.0,
+      reviewCount: 45,
+    },
+    location: "Spain",
+    openSpots: 0,
+  },
 ];

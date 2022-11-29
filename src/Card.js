@@ -3,6 +3,9 @@ import React from "react";
 export default function Card(props) {
   return (
     <div className="card">
+      {props.card.openSpots === 0 && (
+        <div className="card--badge">SOLD OUT</div>
+      )}
       <img
         src={`../images/${props.card.coverImg}`}
         alt="experience-img"
