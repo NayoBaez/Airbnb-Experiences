@@ -8,9 +8,9 @@ export default [
     coverImg: "katie-zaferes.png",
     stats: {
       rating: 5.0,
-      reviewCount: 6,
+      reviewCount: 16,
     },
-    location: "Online",
+    location: "USA",
     openSpots: 0,
   },
   {
@@ -21,10 +21,10 @@ export default [
     price: 125,
     coverImg: "wedding-photography.png",
     stats: {
-      rating: 5.0,
+      rating: 4.9,
       reviewCount: 30,
     },
-    location: "Online",
+    location: "Bulgaria",
     openSpots: 27,
   },
   {
@@ -36,7 +36,7 @@ export default [
     coverImg: "mountain-bike.png",
     stats: {
       rating: 4.8,
-      reviewCount: 2,
+      reviewCount: 27,
     },
     location: "Norway",
     openSpots: 3,

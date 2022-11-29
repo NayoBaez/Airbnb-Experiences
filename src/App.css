@@ -13,22 +13,19 @@ body {
   display: block;
   margin: 0 auto;
   background: white;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav {
   height: 70px;
   display: flex;
   padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bold {
   font-weight: bold;
-}
-
-.gray {
-  color: #918e9b;
 }
 
 .nav--logo {
@@ -75,8 +72,9 @@ section {
 
 .card--image {
   width: 100%;
-  border-radius: 9px;
   margin-bottom: 9px;
+  height: 235px;
+  border-radius: 9px;
 }
 
 /* ADD */
@@ -89,9 +87,16 @@ section {
   display: flex;
   align-items: center;
 }
+.card--rating,
+.card--reviewcount,
+.card--location {
+  margin-right: 3px;
+  color: #918e9b;
+}
 
 .card--star {
   height: 14px;
+  margin-right: 3px;
 }
 
 /* ADD */
