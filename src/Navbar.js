@@ -6,7 +6,7 @@ export default function Navbar() {
       <img
         src="../images/airbnb-logo.png"
         alt="airbnb-logo"
-        ClassName="nav--logo"
+        className="nav--logo"
       />
     </nav>
   );
