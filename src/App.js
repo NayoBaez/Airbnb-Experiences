@@ -2,13 +2,12 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Card from "./Card";
-import Data from "./Data";
+import data from "./data";
 
 import "./App.css";
 
 function App() {
-  console.log(Data);
-  const cards = Data.map((card) => {
+  const cards = data.map((card) => {
     return <Card key={card.id} card={card} />;
   });
 
