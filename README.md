@@ -1,4 +1,4 @@
-[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Airbnb-Experiences/master/GITHUB%20README%20BANNER%20AIRBNB.png)](https://nayobaez.com)
+[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Airbnb-Experiences/master/GITHUB%20README%20BANNER%20AIRBNB%20CLONE.png)](https://nayobaez.com)
 
 # AIRBNB EXPERIENCES CLONE
 
